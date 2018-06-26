@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="en-US">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="name">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keywords,here">
+    <link rel="stylesheet" href="css/project.css" type="text/css">
+    <link href="fontawesome/fontawesome-all.css" rel="stylesheet">
+    <title>Sketchy</title>
+  </head>
+  <body>
+    <!--===============Navigation Bar===================-->
+    <nav class="nav-bar">
+      <img src="http://res.freestockphotos.biz/pictures/16/16852-illustration-of-an-owl-on-a-branch-pv.png" alt="owl logo" class="logo">
+      <h2 class="name">Sketchy</h2>
+      <ul class="nav-options">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">Menu</a></li>
+        <li class="nav-item"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!--================Banner========================-->
+    <div class="banner"></div>
+    
+    <div class="w3-content w3-section">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1457295767206-0cb0658056cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab3a5c34b5c55cfe46c75bb39fe6e09f&auto=format&fit=crop&w=667&q=80" style="width:80%; height: 350px;">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1519916499216-0ad87512e991?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c63ce0d9b62c1aed38df3b5fdd254dc7&auto=format&fit=crop&w=750&q=80" style="width:80%; height: 350px;">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1519955910572-15db8058a19f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a3da3e2408ed6b8e33c27ca2ec5425b&auto=format&fit=crop&w=749&q=80" style="width:80%; height: 350px;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
+</script>
+    
+    <!--=================Colomn Content================-->
+    <section class="col-con">
+      <div class="col-one">
+        <h2>Lessons</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia repellat ducimus obcaecati aperiam recusandae ipsam, ullam. Nostrum autem ducimus voluptatem expedita soluta illum non natus reprehenderit, rem magnam odit blanditiis, illo vero ab saepe! Necessitatibus consectetur, aliquam ea quisquam ut facilis excepturi nisi natus totam, minus, suscipit similique. Veniam, minima.</p>
+      </div>
+      
+      <div class="col-two">
+        <h2>Ideas</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tempora, quibusdam eligendi dolorem amet maxime ratione. Soluta nam adipisci voluptates, quos corporis, doloremque nostrum. Quas molestiae eum corrupti obcaecati<span class="emoji">💩</span> omnis modi laudantium facilis enim quisquam cupiditate molestias et ad fuga autem, maxime at ullam asperiores, neque provident. Quos incidunt assumenda, accusamus excepturi quaerat, ipsam, non tenetur ab recusandae ipsum eos animi cum ex et at ullam tempora. Quae, laudantium, animi!</p>
+      </div>
+      
+      <div class="col-three">
+        <h2>References</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia officiis, modi eveniet cumque natus quis! Quos omnis consequatur inventore illum nam quae praesentium alias, eius sint natus quas reprehenderit, quod officia necessitatibus repellat error, autem est modi laudantium maiores numquam. Accusamus esse assumenda facilis autem tempora harum optio quo, dignissimos in, iure possimus voluptates. Expedita libero perspiciatis praesentium, iste natus.</p>
+      </div>
+    </section>
+    <!--=====================FOOTER==================-->
+      <footer class="footer">
+    <div class="footer-col">
+      <a href="contact.html" target="_blank"><button class="footer-button">Click Me</button></a>
+    </div>
+    
+    <div class="footer-col">
+      <a href="https://www.facebook.com/" target="_blank"><i class="icon fab fa-facebook-square fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="icon fab fa-instagram fa-2x"></i></a>
+      <a href="https://twitter.com/?lang=en" target="_blank"><i class="icon fab fa-twitter-square fa-2x"></i></a>
+        
+    </div>
+    
+    <div class="footer-col">
+      <div id="copyright">
+        <p>&copy; All Rights Reserved 2018. Brandyce Bowers</p>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>

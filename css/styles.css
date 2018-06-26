@@ -1,0 +1,105 @@
+.nav-bar {
+    background-color: #9FE3DD;
+    margin: 0 auto;
+    display: inline-block;
+    height: 55px;
+    width: 100%;
+}
+.logo {
+    height: 50px;
+    width: 78px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.name {
+    color: #000;
+    font-family: cursive;
+    display: inline;
+}
+.nav-options {
+    float: right;
+
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: arial;
+    list-style-type: none;
+}
+/*.banner {*/
+/*    background-image: url('../img/sketch-banner.jpg');*/
+/*    height: 450px;*/
+/*    width: 100%;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+.w3-content {
+    text-align: center;
+    /*margin-left: 300px;*/
+    background-color: #000;
+    padding-left: 300px;
+}
+.col-con {
+    margin-top: 6px;
+}
+.col-one {
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    padding: 4px;
+    margin-left: 8px;
+}
+.col-two {
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    padding: 4px;
+    margin-left: 8px;
+
+}
+.col-three {
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    padding: 4px;
+    margin-left: 8px;
+}
+.footer {
+    border: 1px dashed blue;
+    width: 100%;
+    height: 200px;
+    clear: both;
+    background-color: rgba(102, 153, 255);
+    padding-top: 2%;
+
+}
+.footer-col {
+    width: 32%;
+    /*border: 1px dashed black;*/
+    /*height:10px;*/
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.footer-button {
+    background-color: teal;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 150px;
+}
+.icon {
+    color: teal;
+    text-align: center;
+}
+i:hover{
+    color: white;
+}
+#copyright {
+    color: teal;
+}
